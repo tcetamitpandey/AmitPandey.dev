@@ -1,0 +1,92 @@
+.navbar_container{
+    position: fixed;
+    top: 50%;
+    right: 10rem;
+    
+    transform: translateY(-50%);
+    
+    z-index: 999;
+    background: transparent;
+   
+}
+
+
+.navbar_{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding:  0 0.6rem;
+
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+
+    background: linear-gradient( to bottom, var(--bg) , rgba(128, 128, 128, 0.25), var(--bg) );
+
+
+}
+
+.navbar_ span {
+    cursor: pointer;
+    color: #aaa;
+    transition: 
+        transform 0.25s ease,
+        color 0.25s ease,
+        background 0.25s ease;
+    padding: 0.4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_ span:hover {
+    
+    transform: scale(1.15);
+    
+}
+
+.navbar_anim{
+    animation: slide_in 0.6s ease-in-out;
+}
+
+@keyframes slide_in{
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width : 900px) {
+
+    .navbar_container{
+        position: fixed;
+        top: auto;
+        bottom: 3rem;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+
+    }
+
+    .navbar_{
+        flex-direction: row;
+        gap: 1.2rem;
+       
+        width: fit-content;
+        border: 1px solid rgba(255,255,255,0.25);
+        border-radius: 999px;
+        background: rgba(20, 20, 20, 0.7);
+        backdrop-filter: blur(12px);
+        padding: 0.7rem 1.2rem;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.35)
+                    inset 0 0 0 1px rgba(255,255,255,0.08);
+
+    }
+    
+}
+
