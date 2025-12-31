@@ -95,9 +95,9 @@ export default function Proof_of_work(){
                                 </a>
 
                                 { project.proj_live && 
-                                <a  target="_blank"   href={project.proj_live} >
-                                    < VscGlobe size={18} />
-                                    <span>Website</span>
+                                <a  target="_blank" className="website_container"   href={project.proj_live} >
+                                    < VscGlobe className="website_icon" size={18} />
+                                    <span> Website </span>
                                 </a>
                                 
                                 }

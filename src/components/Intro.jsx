@@ -77,7 +77,10 @@ export default function Intro(){
                 <div className="intro_text">
                     <div className="intro_text_main">
                         <span className="intro_hi">Hi, I'm</span>
-                        <h1 className="intro_name" style={{fontFamily : `${curr_font}`}} >Amit Pandey</h1>
+                        <span className="intro_name_container" >
+                            <div className="intro_name" style={{fontFamily : `${curr_font}`}} >Amit Pandey</div>
+                        </span>
+                        
                         {/* this text will keep on changing the font */}
                     </div>
                     <div className="snap_effect">

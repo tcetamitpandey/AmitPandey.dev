@@ -144,3 +144,17 @@
     transform: translateY(-8px);
     box-shadow: 0 10px 40px rgba(255, 255, 255, 0.203);
 }
+
+
+
+
+@media (max-width : 900px){
+    .proof_of_work_projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project{
+        width: 100%;
+    }
+}

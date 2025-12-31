@@ -65,14 +65,32 @@
   font-weight: 700;
 }
 
+
+.intro_name_container{
+  /* display: flex; */
+  position: relative;
+  width: 30ch;
+  height: 100%;
+  height: 2.6rem;
+  /* overflow: hidden; */
+}
+
 .intro_name {
 
   font-size: 2.3rem;
   font-weight: 900;
-  line-height: 1;
+  /* line-height: 1; */
   letter-spacing: -0.02em;
   transition: font-family 0.12s ease-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
 }
+
+
 
 /* ===============================
    Sub Text
@@ -100,4 +118,17 @@
 
 h1 {
   margin: 0;
+}
+
+
+@media (max-width : 900px){
+  .intro_text_main{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .intro_text_main span{
+    line-height: 1;
+  }
 }

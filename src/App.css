@@ -4,3 +4,10 @@
 .body_container{
     width: 60%;
 }
+
+
+@media (max-width : 900px){
+    .body_container{
+        width: 80%;
+    }
+}
