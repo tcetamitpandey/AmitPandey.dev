@@ -131,4 +131,12 @@ h1 {
   .intro_text_main span{
     line-height: 1;
   }
+
+  .intro_container{
+    align-items: start;
+  }
+
+  .intro_text{
+    gap: 1.5rem;
+  }
 }

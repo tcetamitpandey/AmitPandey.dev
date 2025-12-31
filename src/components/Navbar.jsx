@@ -13,10 +13,10 @@ export default function  Navbar(){
   <div className="navbar_anim">
     <div className="navbar_">
       <div></div>
-      <span><RiGithubLine size={25} /></span>
-      <span><LuLinkedin size={22} /></span>
-      <span><RiTwitterXLine size={22} /></span>
-      <span><CgFileDocument size={23} /></span>
+      <a  href="https://github.com/tcetamitpandey" target="_blank" ><RiGithubLine size={25} /></a>
+      <a  href="https://www.linkedin.com/in/amit-pandey-tcet" target="_blank"  ><LuLinkedin size={22} /></a>
+      <a  href="https://x.com/recursive_fool" target="_blank"  ><RiTwitterXLine size={22} /></a>
+      <a  href="./resume/Amit_Pandey_SDE.pdf" download={true}  ><CgFileDocument size={23} /></a>
       <div></div>
     </div>
   </div>
