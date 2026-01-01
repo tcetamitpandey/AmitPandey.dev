@@ -56,6 +56,7 @@
 .intro_text_main {
   display: flex;
   align-items: baseline;
+  /* flex-direction: column; */
   gap: 1rem;
 }
 
@@ -138,5 +139,23 @@ h1 {
 
   .intro_text{
     gap: 1.5rem;
+  }
+
+  .intro_hi{
+    font-size: 1.5rem;
+  }
+
+  .intro_name{
+    font-size: 1.5rem;
+  }
+
+  .intro_container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile_img{
+    width: 60px;
+    height: 60px;
   }
 }

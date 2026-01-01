@@ -91,3 +91,28 @@ p{
     margin-top: 6px;
     border-radius: 2px;
 }
+
+
+@media (max-width : 900px) {
+
+    .item_left{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .item_right{
+        display: flex;
+        align-items: end;
+        
+    }
+
+    .item_right p{
+        font-size: 0.6rem;
+    }
+
+    .item_text_section{
+        gap: 1rem;
+    }
+    
+}

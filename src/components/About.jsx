@@ -41,7 +41,7 @@ export default function About(){
                 <div className="_title">About</div>
                 <div className="about_content">
                     <p>
-                        I like building things and figuring out how they actually work under the hood. Right now, I’m deep into machine learning,exploring the magic of teaching machines to think. I’m driven by projects that have a life outside the terminal and solve real problems for real people. When I’m not coding, I am mostly found scribbling under the roof of quora or medium,very active on X.
+                        I’m a builder who turns ideas into reliable, production-ready systems. I work across backend development, data, automation, and infrastructure, with a strong focus on solving real business problems. I enjoy owning problems end-to-end, diving deep into failures, and continuously improving the systems I build. Outside of work, I write, teach, and share what I learn.
                     </p>
                     
                 </div>
