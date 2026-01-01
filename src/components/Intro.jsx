@@ -69,11 +69,13 @@ export default function Intro(){
     return (
         <section>
             <div className="intro_container">
+                <a href="https://x.com/recursive_fool" >
                 <div className="profile_img" >
                     <span className="profile_img_span">
                         <img src="./amit_pandey.jpg" alt="" />
                     </span>
                 </div>
+                </a>
                 <div className="intro_text">
                     <div className="intro_text_main">
                         <span className="intro_hi">Hi, I'm</span>
