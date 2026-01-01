@@ -10,6 +10,14 @@
 }
 
 
+@media (max-width : 500px) {
+
+    .body_container{
+        padding-inline: 1rem;
+    }
+    
+}
+
 @media (max-width : 350px) {
 
     .body_container{
