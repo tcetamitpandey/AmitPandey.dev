@@ -12,12 +12,19 @@ function ContactUs(){
                 <span>Let's get in touch!</span>
             </div>
 
-            <div className="contactus_desc">
-                <span>If you have any inquiries, please feel free to reach out. You can contact me via Email at
-                    <br />  
-                    <span className="contactUs_email">ap7666088748@gmail.com</span>
-                </span>
+           <div className="contactus_desc">
+            <span>
+                If you have any inquiries, please feel free to reach out. You can contact me via Email at
+                <br />
+                <a
+                href="mailto:ap7666088748@gmail.com"
+                className="contactUs_email"
+                >
+                ap7666088748@gmail.com
+                </a>
+            </span>
             </div>
+
 
             
         </div>
