@@ -4,52 +4,52 @@ import { RiGithubLine } from "react-icons/ri";
 import { VscGlobe } from "react-icons/vsc";
 
 const project_collection = [
-        {
-            proj_img: "./project_img/creative_agency.png",
-            proj_title: "CreativePulse – Digital Agency Website",
-            proj_stack: ["React", "JavaScript", "HTML5", "CSS3", "Vercel"],
-            proj_desc:
-            "A modern and responsive digital agency website showcasing services, portfolios, and client engagement with smooth UI interactions.",
-            proj_github: "https://github.com/tcetamitpandey/creative-agency",
-            proj_live: "https://creative-agency-ashy.vercel.app"
-        },
-        {
-            proj_img: "./project_img/health_agency.png",
-            proj_title: "InsureWell – Health Insurance Portal",
-            proj_stack: ["React", "JavaScript", "HTML5", "CSS3", "Vercel"],
-            proj_desc:
-            "A user-friendly health insurance platform designed to explore policies, compare plans, and generate insurance leads efficiently.",
-            proj_github: "https://github.com/tcetamitpandey/rahul-pandey-hdfc-ergo",
-            proj_live: "https://rahul-pandey-hdfc-ergo.vercel.app/"
-        },
-        {
-            proj_img: "./project_img/TrackMyPrep.png",
-            proj_title: "TrackMyPrep – Smart Study Planner",
-            proj_stack: ["React", "Node.js", "REST APIs", "OpenAI API"],
-            proj_desc:
-            "A productivity-focused preparation tracker that helps users plan, monitor, and analyze study progress for exams and goals.",
-            proj_github: "https://github.com/tcetamitpandey/TrackMyPrep",
-            proj_live: ""
-        },
-        {
-            proj_img: "./project_img/onebook.png",
-            proj_title: "OneBook – Full-Stack E-Commerce Platform",
-            proj_stack: ["React", "Node.js", "Python", "MongoDB", "REST APIs"],
-            proj_desc:
-            "A full-stack e-commerce application for browsing, purchasing, and managing books with authentication and order workflows.",
-            proj_github: "https://github.com/tcetamitpandey/onebook-fullstack-ecommerce",
-            proj_live: ""
-        },
-        {
-            proj_img: "./project_img/Indian_tourism.png",
-            proj_title: "Explore India – Tourism Experience Portal",
-            proj_stack: ["React", "JavaScript", "HTML5", "CSS3", "GitHub Pages"],
-            proj_desc:
-            "A tourism-focused web platform showcasing India’s destinations, culture, and travel experiences with an engaging UI.",
-            proj_github: "https://github.com/tcetamitpandey/Tourism",
-            proj_live: "https://tcetamitpandey.github.io/Tourism/"
-        }
-        ];
+    {
+        proj_img: "./project_img/creative_agency.png",
+        proj_title: "CreativePulse – Digital Agency Website",
+        proj_stack: ["React", "JavaScript", "HTML5", "CSS3", "Vercel"],
+        proj_desc:
+        "My first end-to-end agency website built for a real client to support lead generation and online presence. Designed and developed using React with a strong focus on creativity, responsive layouts and conversion-oriented UI to help turn visitors into business leads.",
+        proj_github: "https://github.com/tcetamitpandey/creative-agency",
+        proj_live: "https://creative-agency-ashy.vercel.app"
+    },
+    {
+        proj_img: "./project_img/health_agency.png",
+        proj_title: "InsureWell – Health Insurance Portal",
+        proj_stack: ["React", "JavaScript", "HTML5", "CSS3", "Vercel"],
+        proj_desc:
+        "A health insurance lead-generation platform built for real world usecase to turn users into clients, request callbacks easily. The project focuses on trust, clarity, and conversion flow, translating business requirements into a clean and scalable frontend experience.",
+        proj_github: "https://github.com/tcetamitpandey/rahul-pandey-hdfc-ergo",
+        proj_live: "https://rahul-pandey-hdfc-ergo.vercel.app/"
+    },
+    {
+        proj_img: "./project_img/TrackMyPrep.png",
+        proj_title: "TrackMyPrep – Smart Study Planner",
+        proj_stack: ["React", "Node.js", "REST APIs", "JWT" , "OpenAI API"],
+        proj_desc:
+        "A community-focused project : TrackMyPrep is a MERN-stack interview preparation platform designed to help learners practice categorized questions, track progress, and improve through AI-driven insights. It features JWT-based authentication, leaderboards, upvoting, and an AI-powered mock interview system that simulates real interview scenarios—built with the goal of helping learners stay consistent and grow together.",
+        proj_github: "https://github.com/tcetamitpandey/TrackMyPrep",
+        proj_live: ""
+    },
+    {
+        proj_img: "./project_img/onebook.png",
+        proj_title: "OneBook – Full-Stack E-Commerce Platform",
+        proj_stack: ["Django", "Python", "ORM", "REST APIs"],
+        proj_desc:
+        "A full-stack e-commerce project built as a hands-on learning exercise to understand backend development, Django workflows, and payment integrations. While experimenting with real-world checkout logic, I implemented alternative payment flows using QR-based payments, focusing on learning production challenges end to end.",
+        proj_github: "https://github.com/tcetamitpandey/onebook-fullstack-ecommerce",
+        proj_live: ""
+    },
+    {
+        proj_img: "./project_img/Indian_tourism.png",
+        proj_title: "Explore India – Tourism Experience Portal",
+        proj_stack: ["React", "JavaScript", "HTML5", "CSS3", "GitHub Pages"],
+        proj_desc:
+        "A reimagined tourism experience inspired by the limitations of existing platforms. This project explores how India’s destinations, culture, and diversity can be presented through a more engaging, modern, and user-friendly interface using the tools and knowledge I had at the time.",
+        proj_github: "https://github.com/tcetamitpandey/Tourism",
+        proj_live: "https://tcetamitpandey.github.io/Tourism/"
+    }
+];
 
 
 export default function Proof_of_work(){

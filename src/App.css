@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
-.body_container{
-    width: 60%;
+.body_container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: clamp(0.3rem, 16vw, 20rem); 
+  /* padding - line work for both left ot right text and right to left text like urdu  its not based on physical direction ( padding left/right ) like default padding but on text reading direction */
 }
 
 
-@media (max-width : 900px){
+@media (max-width : 350px) {
+
     .body_container{
-        width: 80%;
+        padding-inline: 0.3rem;
     }
-}
-
-@media (max-width : 400px ) {
     
-    .body_container{
-        width: 98%;
-    }
 }

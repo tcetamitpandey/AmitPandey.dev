@@ -121,6 +121,14 @@ h1 {
   margin: 0;
 }
 
+@media (max-width : 1000px) {
+
+  .intro_hi{
+    font-size: 2rem;
+  }
+  
+}
+
 
 @media (max-width : 900px){
   .intro_text_main{
