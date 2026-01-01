@@ -26,45 +26,56 @@ export default function Intro(){
 
     const font_collection = [
         "Playfair Display",
-        "Georgia",
-        "Courier New",
-        "Impact",
-        "Comic Sans MS",
         "Open Sans",
         "Lato",
         "Inter",
         "Poppins",
         "Raleway",
         "Ubuntu",
-        "Source Sans Pro",
+        "Source Sans 3",
+        "Georgia",
+        "Courier New",
+        "Impact",
+        "Comic Sans MS",
         "Futura",
         "Avenir",
         "Segoe UI",
         "Helvetica Neue",
         "Verdana",
-        "Tahoma" 
-        ]
+        "Tahoma"
+    ];
+
 
 
     let curr_font_idx = useRef(0)
     
     const [curr_font, setCurr_font ] = useState("Inter")
 
-    useEffect(()=>{
+    useEffect(() => {
+        let intervalId;
 
-        const fontChangeIterval = setInterval(()=>{
-            curr_font_idx.current = (curr_font_idx.current + 1) % font_collection.length
+        document.fonts.ready.then(() => {
+            const safeFonts = font_collection.filter(font =>
+            document.fonts.check(`16px "${font}"`)
+            );
 
-            setCurr_font(font_collection[curr_font_idx.current])
+            if (safeFonts.length === 0) {
+            safeFonts.push("Inter");
+            }
 
-        }, 400 )
+            intervalId = setInterval(() => {
+            curr_font_idx.current =
+                (curr_font_idx.current + 1) % safeFonts.length;
 
-        return ()=>{
-            clearInterval(fontChangeIterval)
-        }
+            setCurr_font(safeFonts[curr_font_idx.current]);
+            }, 400);
+        });
 
+        return () => {
+            if (intervalId) clearInterval(intervalId);
+        };
+        }, []);
 
-    },[])
 
     return (
         <section>
@@ -72,7 +83,7 @@ export default function Intro(){
                 <a href="https://x.com/recursive_fool" >
                 <div className="profile_img" >
                     <span className="profile_img_span">
-                        <img src="./amit_pandey.jpg" alt="" />
+                        <img src="./amit_pandey.jpg" alt="Amit Pandey profile photo" />
                     </span>
                 </div>
                 </a>
