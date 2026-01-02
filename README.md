@@ -30,6 +30,6 @@ The project is built using the following technologies:
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="public/project_ss/pc.png" width="45%" />
-  <img src="public/project_ss/mobile.png" width="45%" />
+  <img src="public/project_ss/pc.png" />
+  <img src="public/project_ss/mobile.png" />
 </p>
